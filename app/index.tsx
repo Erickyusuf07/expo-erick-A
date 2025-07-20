@@ -7,9 +7,10 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Selamat Datang 👋</Text>
-      <Button title="Buka Tugas 1" onPress={() => router.push('/tugas 1')} />
+      <Button title="Buka Tugas 4" onPress={() => router.push('/tugas 4')} />
       <View style={{ margin: 10 }} />
       <Button title="Buka Tugas 2" onPress={() => router.push('/tugas 2')} />
+        
     </View>
   );
 }
